@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/paper-trading-website/static/css/main.fa3bb6d4.css",
+    "main.js": "/paper-trading-website/static/js/main.7478081b.js",
+    "static/media/dp_log_launcher.png": "/paper-trading-website/static/media/dp_log_launcher.58cc5b430f5108227ab0.png",
+    "static/media/home1.webp": "/paper-trading-website/static/media/home1.4805b78bde0f6d2bd06b.webp",
+    "static/media/dp_log_png.png": "/paper-trading-website/static/media/dp_log_png.f5d364e1022d8dd2449c.png",
+    "static/media/h5.png": "/paper-trading-website/static/media/h5.ec140e18e6a14b4ee308.png",
+    "static/media/h4.png": "/paper-trading-website/static/media/h4.a210b6dc4c7bb9b30ab6.png",
+    "static/media/h3.png": "/paper-trading-website/static/media/h3.821147d7a4ee4666c94d.png",
+    "static/media/h1.png": "/paper-trading-website/static/media/h1.566e769719ac2c073399.png",
+    "static/media/h2.png": "/paper-trading-website/static/media/h2.3b7e70072188656d7e50.png",
+    "index.html": "/paper-trading-website/index.html",
+    "main.fa3bb6d4.css.map": "/paper-trading-website/static/css/main.fa3bb6d4.css.map",
+    "main.7478081b.js.map": "/paper-trading-website/static/js/main.7478081b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa3bb6d4.css",
+    "static/js/main.7478081b.js"
+  ]
+}
