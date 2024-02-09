@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+}
+
+.login{
+  border-color: #0d9791;
+  color: #0e2a5b;
+  border: 1px solid #0d9791;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+.login:hover{
+  border-color: #396ea2;
+  color: #0d9791;
+  box-shadow: 0 0 0 0;
+  transition: ease-in;
+}
+.signup{
+  background-color: #0e2a5b;
+  color: white;
+ 
+  border-radius: 10px;
+}
+.signup:hover{
+  background-color: white;
+  color: #0e2a5b;
+  transition: ease-in;
+}
+.paperTrade{
+  color: #0e2a5b;
+}.paperTrade:hover{
+  color: #0d9791;
+  transition: ease-in;
+}
+.main-body{
+  @media (max-width: 450px){
+    width: 420px;
+  }
+}
+.sect1{
+  @media (max-width: 450px){
+    width: 758px;
+    height: 400px;
+  }
+  height: 580px;
+}
+.sect1-1{
+  margin-top: 100px;
+  padding-left: 30px;
+  width: 50%;
+  font-family: 'changa o';
+  font-size: 50px;
+  font-weight: 500px;
+}
+.text1{color: #0e2a5b;font-size: 100%;
+  @media (max-width: 450px){
+    font-size: 60%;
+  }
+  font-size: 100%;
+}
+.text2,.text3{
+  @media (max-width: 450px){
+    font-size: 60%;
+  }
+  color: #0d9791;
+  font-size: 100%;
+}
+.signup-sec{
+  background-color: #0e2a5b;
+  color: white;
+ 
+  border-radius: 10px;
+}
+.to-top{
+	color:#0d9791;
+	padding-top:1.8em;
+	display:inline-block;/* or block */
+	position:relative;
+	border-color:#0d9791;
+	text-decoration:none;
+	transition:all .3s ease-out;
+}
+.to-top:before{
+	content:'▲';
+	font-size:.9em;
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-.7em;
+	border:solid .13em #0d9791;
+	border-radius:10em;
+	width:1.4em;
+	height:1.4em;
+	line-height:1.3em;
+	border-color:inherit;
+	transition:transform .5s ease-in;
+}
+.arrow1 {
+  animation: slide1 1s ease-in-out infinite;
+  margin-left: 9px;
+}
+@keyframes slide1 {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(24px, 0);
+  }
+}
+.sect1-2-img{
+  @media (max-width: 450px){
+    left: 50px;
+    width: 395px;
+    height: 395px;
+  }
+}
+.trading-view{
+  @media (max-width: 450px){
+    width: 670px;
+  }
+  padding: 40px 15% 0 15%;
+  height: 550px;
+  margin-bottom: 300px;
+}
+.trading-view-title{
+  width: 100%;
+  font-weight: bolder;
+  font-size: 80px;
+  align-items: center;
+  @media (max-width: 450px){
+    font-size: 50px;
+  }
+
+}
+.sect2{
+  @media (max-width: 450px){
+    width: 798px;
+  }
+}
+.sect2-1{
+  font-family: anton;
+  color: #0e2a5b;
+  font-size: 70px;
+}
+.sect2-2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #c1a264;
+  font-size: 20px;
+}
+.features-img:hover{
+  box-shadow: 0 4px 8px 0 rgba(14, 42, 91, 0.3), 0 6px 40px 0 rgba(14, 42, 91, 0.8);
+  transform: scale(1.1);
+}
+.features-img{
+  border: 1px solid #0e2a5b;
+  transition: transform .2s;
+}
+.sect3{
+  @media (max-width: 450px){
+    width: 760px;
+  }
+}
+
+.sect4{
+  @media (max-width: 450px){
+    width: 798px;
+  }
+}
